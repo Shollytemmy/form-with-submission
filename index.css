@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.form{
+    width: 30%;
+    border: 0px solid red;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.w50{
+    padding: 10px 15px;
+    outline: none;
+    border-radius: 5px;
+    border-color: #ccc;
+    font-size: 18px;
+}
+
+.cta{
+    background-color: red;
+    border: none;
+}
