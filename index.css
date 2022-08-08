@@ -12,17 +12,22 @@ body{
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
+    border: 0px solid red;
     
+    
+}
+
+section{
+    margin: 1rem;
+   
+    width: 100%;
 }
 
 .form{
     width: 30%;
-    border: 0px solid red;
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
+    
 }
 
 .w50{
@@ -36,4 +41,9 @@ body{
 .cta{
     background-color: red;
     border: none;
+}
+
+.form-control{
+    display: flex;
+    flex-direction: column;
 }
